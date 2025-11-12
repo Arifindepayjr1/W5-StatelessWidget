@@ -9,7 +9,7 @@ class HobbyCard extends StatelessWidget{
   IconData iconData;
   Color? color;
 
-  HobbyCard({required this.title , required this.iconData , this.color = Colors.blue});
+  HobbyCard({super.key , required this.title , required this.iconData , this.color = Colors.blue});
 
 
   @override
